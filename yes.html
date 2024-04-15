@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="./yes_style.css">
-        
-    </head> 
-    <body>
-        <div class="container">
-            <div >
-                <h1 class = "header_text">Yaay!!! </h1>
-            </div>
-            <div class="gif_container">
-                <img src="https://media0.giphy.com/media/T86i6yDyOYz7J6dPhf/giphy.gif" alt="Cute animated illustration">
-            </div>
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text">Yaay!!!</h1>
         </div>
-       <script>
-        function redirectToWhatsApp() {
-        var whatsappURL = "https://wa.me/40756932997?text=Da, mi-ar face placere <3 !";
-        window.location.href = whatsappURL;
-    }
-
-    setTimeout(redirectToWhatsApp, 2000);
-       </script>
-    </body> 
+        <div class="gif_container">
+            <img src="https://media0.giphy.com/media/T86i6yDyOYz7J6dPhf/giphy.gif" alt="Celebratory animation">
+        </div>
+        <div class="buttons">
+            <button class="btn" onclick="redirectToWhatsAppPlimbare()">Plimbare</button>
+            <button class="btn" onclick="redirectToWhatsAppRestaurant()">Restaurant</button>
+            <button class="btn" onclick="redirectToWhatsAppSurprise()">Surprinde-ma</button>
+        </div>
+    </div>
+</body>
 </html>
